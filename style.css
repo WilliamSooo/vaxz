@@ -1,0 +1,346 @@
+* {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+	width: 1100px;
+	margin: auto;
+	position: relative;
+}
+
+.hjhj {
+	font-size: 50px;
+	font-weight: bold;
+	font-family: courier;
+	color: #54BAB9;
+	text-align: center;
+} 
+
+.menu {
+	margin-left: 330px;
+}
+
+nav {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background: #ffffff;
+	z-index: 1;
+	border-bottom: solid 1px #D14D72;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+	background-color: #569DAA;
+	border-radius: 20px;
+}
+
+section {
+	margin: auto;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.kolom {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'comic sans ms';
+	color: #54BAB9;
+}
+
+h2 {
+	font-family: 'comic sans ms';
+	font-weight: bold;
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: #54BAB9;
+	width: 100%;
+	line-height: 45px;
+	overflow: hidden;
+	margin-right: 0px;
+}
+
+lottie-player {
+	float: left;
+	margin-right: 140px;
+}
+
+.hiu {
+	font-family: sans-serif;
+	font-size: 17px;
+	margin: 10px 0px 10px 0px;
+	padding: 10px 0px 10px 0px
+}
+
+a.tbl-biru {
+	background: #2A2F4F;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding: 15px 20px 15px 20px;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+a.tbl-biru:hover {
+	background: #B9EDDD;
+	text-decoration: none;
+	color: black;
+}
+
+a.tbl-pink {
+	background: #D21312;
+	border-radius: 20px;
+	margin-top: 30px;
+	padding: 15px 20px 15px 20px;
+	color: black;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+a.tbl-pink:hover {
+	background: #2A2F4F;
+	color: #ffffff;
+}
+
+.lolo {
+	color: #19A7CE;
+}
+
+p {
+	font-family: sans-serif;
+	font-size: 17px;
+	margin-bottom: 20px;
+	/*text-indent: 40px;*/
+}
+
+a.tbl-pinnk {
+    background: #D21312;
+	border-radius: 20px;
+	margin-top: 30px;
+	padding: 15px 20px 15px 20px;
+	color: black;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+a.tbl-pinnk:hover {
+	background: #2A2F4F;
+	color: #ffffff;
+}
+
+.typedjs {
+	font-size: 50px;
+	font-weight: bold;
+	font-family: courier;
+	color: #54BAB9;
+	text-align: center;
+	margin-top: -13px;
+}
+
+.tengah {
+	text-align: center;
+	width: 100%;
+}
+
+.aboutlist {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.kartu {
+	width: 20%;
+	margin: 0 auto;
+}
+
+.kartu img {
+	width: 80%;
+	border-radius: 50%;
+}
+
+.kartu p {
+	font-family: 'comic sans ms';
+	font-weight: 800px;
+	font-size: 20px;
+	text-align: center;
+	color: #54BAB9;
+}
+
+.partner-list {
+	width: 100%;
+	position:relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.kartu-partner {
+	width: 20%;
+	margin: 0 auto;
+}
+
+.kartu-partner img {
+	width: 150px;
+	border-radius: 10%;
+}
+
+/*contact*/
+
+.contact-wrapper {
+  max-width: 600px; /* atur lebar maksimum kontainer */
+  margin: 0 auto; /* atur margin horizontal menjadi auto */
+  text-align: center; /* atur text-align ke center untuk semua elemen dalam kontainer */
+  background-color: #3498db; /* tambahkan properti background-color dengan nilai warna biru */
+  padding: 20px;
+}
+
+.contact-wrapper h2 {
+  margin-bottom: 20px; /* atur margin bottom pada judul */
+}
+
+.contact-wrapper form {
+  display: inline-block; /* atur display form menjadi inline-block */
+  text-align: left; /* atur text-align form menjadi left */
+}
+
+.contact-wrapper label {
+  display: block; /* atur display label menjadi block */
+  margin-bottom: 5px; /* atur margin bottom pada label */
+}
+
+.contact-wrapper input, .contact-wrapper textarea {
+  width: 100%; /* atur width input dan textarea menjadi 100% */
+  padding: 8px; /* atur padding pada input dan textarea */
+  border-radius: 4px; /* atur border radius pada input dan textarea */
+  border: 1px solid #ccc; /* atur border pada input dan textarea */
+  box-sizing: border-box; /* atur box-sizing pada input dan textarea */
+  margin-bottom: 10px; /* atur margin bottom pada input dan textarea */
+}
+
+.contact-wrapper button {
+  background-color: #4CAF50; /* atur warna background button */
+  color: white; /* atur warna teks button */
+  padding: 12px 20px; /* atur padding pada button */
+  border: none; /* hilangkan border pada button */
+  border-radius: 4px; /* atur border radius pada button */
+  cursor: pointer; /* atur kursor menjadi pointer pada button */
+  margin-bottom: 10px; /* atur margin bottom pada button */
+}
+
+.contact-wrapper button:hover {
+  background-color: #45a049; /* atur warna background pada button saat dihover */
+}
+/*udah*/
+
+.kaki {
+	background: #54BAB9;
+	padding: 50px 20px 50px 20px;
+	margin-top: 100px;
+	font-size: 20px;
+	font-family: 'sans serif';
+	border-radius: 20px;
+}
+
+.copy {
+	text-align: center;
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	margin-top:10px;
+	border-top: 1px solid black;
+}
+
+.top {
+	color: red;
+}
+.top:hover {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 991.98px) {
+	.wrapper {
+		width: 90%;
+	}
+	
+	.logo a {
+		display: block;
+		width: 100%;
+		text-align: center
+	}
+	
+	nav .menu {
+		width: 100%;
+		margin: 0;
+		font-size: 16px;
+	}
+	
+	nav .menu ul {
+		text-align: center;
+		margin: auto;
+		line-height: 60px;
+		font-size: 20px;
+	}
+	
+	nav .menu ul li {
+		display: inline-block;
+		float: none;
+	}
+	
+	section {
+		display: block;
+	}
+	
+	section img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	
+	.kartu {
+		width: 50%;
+	}
+	
+	.kartu p {
+		width: 80%;
+	}
+	
+	.kartu-partner {
+		width: 50%;
+	}
+
+}
